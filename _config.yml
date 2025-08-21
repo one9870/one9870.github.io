@@ -14,12 +14,12 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Gamania CloudForce Blog # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: my personal blog # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  blog, gamania, cloudforce, github
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: https://scontent.ftpe8-2.fna.fbcdn.net/v/t39.30808-6/355312925_6781616495184428_6295563006467120526_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=dW4X09bzY-kQ7kNvwG1TYfR&_nc_oc=AdncROQTjJsuZ9S2eri7ZvV0gesxnXHmiaPNSYJwNH19P5YLBZI9UemhPD63FQx2fCgP6SgNMsVbaNhib65qTnzS&_nc_zt=23&_nc_ht=scontent.ftpe8-2.fna&_nc_gid=0I0cySbjocDPMbDZKJ_Mug&oh=00_AfWC7WWoVOZrE_XEuwN4rvnBqGhJFVi7P_w4KQUJxh8RbQ&oe=68AC280C
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
