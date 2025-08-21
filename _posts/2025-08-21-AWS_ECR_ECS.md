@@ -3,6 +3,7 @@ title: "AWS ECR 與 ECS 的差異"
 date: 2025-08-21 02:00:00
 categories: [AWS]
 tags: [AWS, Docker]
+permalink: /posts/AWS_ECR_ECS/
 ---
 
 #Content
