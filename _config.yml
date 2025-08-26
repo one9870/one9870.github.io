@@ -98,8 +98,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
--avatar: https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-6/355312925_6781616495184428_6295563006467120526_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=bRBBFq8_wpUQ7kNvwE4OU4z&_nc_oc=AdmC4jBBw-cssvgk0dNecNoJiQLSj-fkNEvCyXpOaXQfxWJrX2bJGRpy4aQRsZ_Xabo&_nc_zt=23&_nc_ht=scontent-tpe1-1.xx&_nc_gid=Aurjebkm9vVh1hdsJ9Pgxg&oh=00_AfV2GRwaVsmhYPHqd93veMLwm0PfhRpUDR3UWKZACQEizQ&oe=68B3300C
-+avatar: /assets/images/avatar.jpg
+avatar: /assets/images/avatar.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
