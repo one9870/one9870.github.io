@@ -6,8 +6,6 @@ tags: [AWS, Docker]
 permalink: /posts/AWS_ECR_ECS/
 ---
 
-#Content
-
 兩項應用在不同的環節上，但整個CI/CD流程是可以串在一起。<br>
 Amazon ECR 為受管的 AWS Docker 登錄檔服務。<br>
 可以使用眾所熟知的 Docker CLI 來推送、提取和管理映像。<br>
