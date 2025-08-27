@@ -3,7 +3,7 @@ title: "AWS 帳戶異常活動處理方式"
 date: 2025-06-09 03:43:00
 categories: ["AWS"]
 tags: ["AWS", "AWS教學30天上手"]
-permalink: /posts/aws-zhang-hu-yi-chang-huo-dong-chu-li-fang-shi/
+permalink: /posts/aws-unusual-account-activity/
 ---
  若收到如下列類似的AWS，帳戶異常活動通知，務必前往帳戶進行確認，避免被駭客入侵
 
