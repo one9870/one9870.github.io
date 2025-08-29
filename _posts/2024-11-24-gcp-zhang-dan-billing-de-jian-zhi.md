@@ -1,0 +1,64 @@
+---
+title: "GCP 帳單(Billing)的建置"
+date: 2024-11-24 00:50:00
+categories: ["GCP", "GCP教學30天上手"]
+tags: ["GCP", "GCP教學30天上手"]
+permalink: /posts/gcp-zhang-dan-billing-de-jian-zhi/
+---
+# GCP 帳單
+
+## 1.設置帳單預算
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEj4-0E4ckgEXo31kbGDLMV8WMleTjLn6bzFjwZdU7LpS7x0WtjQ1XeDZRc1bD5G7EzqgL__-5GqfheTMO1kOt52W-oqdWbkLw7zGT_AEvKuGF-xsQKAZdGGdbS6688yjHPg3kROtAac9ID25ulYH12nGT4sqGcWzShOOnezaGGm9ZT-234HsQEEdmYqO08=s16000)](https://blogger.googleusercontent.com/img/a/AVvXsEj4-0E4ckgEXo31kbGDLMV8WMleTjLn6bzFjwZdU7LpS7x0WtjQ1XeDZRc1bD5G7EzqgL__-5GqfheTMO1kOt52W-oqdWbkLw7zGT_AEvKuGF-xsQKAZdGGdbS6688yjHPg3kROtAac9ID25ulYH12nGT4sqGcWzShOOnezaGGm9ZT-234HsQEEdmYqO08)
+
+在GCP控制台中，點擊左側導覽選單的【帳單】。
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEg5bHL_OGdhhU5_jQ6ih7sEa6K9-OJDQIi0PHmQ5R7f3CDYQ3NCohdMqfkuP2eQ5rtxG5GDSOKUAW8ytTCiK_PPKh5YxXgSqRCDMEWa2xt9t4vE11DxbBaqkLX24aYYbgFltl0wtB4EuQ827ReJEecJOJ7EGe8knQzYy431tHIvYl8Ra_hHmGjCMdAMSmA=s16000)](https://blogger.googleusercontent.com/img/a/AVvXsEg5bHL_OGdhhU5_jQ6ih7sEa6K9-OJDQIi0PHmQ5R7f3CDYQ3NCohdMqfkuP2eQ5rtxG5GDSOKUAW8ytTCiK_PPKh5YxXgSqRCDMEWa2xt9t4vE11DxbBaqkLX24aYYbgFltl0wtB4EuQ827ReJEecJOJ7EGe8knQzYy431tHIvYl8Ra_hHmGjCMdAMSmA)
+
+  
+
+點擊紅框1中【預算與快訊】點擊2【設定預算】。
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEjuaulzLrD-aNp4M11La_-JtrUWpI52jpswUPLYyvf9cYfLBiGqJ7kTVeIhLXKHn9Z0dUSVbAEjRf_2BxxzWx2aKPvyZsGjDryW8JggSa8iSJ4OabQ7ktE3AzGP7ksL20sFuI6pxTGvKjs-IJ45n_ek7CyK_83Jn4VyLM_GRm2Ykdo-1p-VxciR4Ph2BUI=s16000)](https://blogger.googleusercontent.com/img/a/AVvXsEjuaulzLrD-aNp4M11La_-JtrUWpI52jpswUPLYyvf9cYfLBiGqJ7kTVeIhLXKHn9Z0dUSVbAEjRf_2BxxzWx2aKPvyZsGjDryW8JggSa8iSJ4OabQ7ktE3AzGP7ksL20sFuI6pxTGvKjs-IJ45n_ek7CyK_83Jn4VyLM_GRm2Ykdo-1p-VxciR4Ph2BUI)
+
+  
+
+輸入預算的名稱【專案預算-demo】。
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEjBvRdln4vMUJX2gL8EPeOc3HCMhymLm-O-Lt7qT3MNVY6gSPZv6lx7oZIFKWrYkazFDo1sAgROhCLUtUYOQ6Dfkbb9b8v-jv2Vhw5ZTT8m-vAMvPOU8uMe5r2ArywL9FQFM8w-m4darcPnc8clhtFqaRoOkGmMaYxJVdohvkIAtEkKVpeV8jQLQT9iw1w=s16000)](https://blogger.googleusercontent.com/img/a/AVvXsEjBvRdln4vMUJX2gL8EPeOc3HCMhymLm-O-Lt7qT3MNVY6gSPZv6lx7oZIFKWrYkazFDo1sAgROhCLUtUYOQ6Dfkbb9b8v-jv2Vhw5ZTT8m-vAMvPOU8uMe5r2ArywL9FQFM8w-m4darcPnc8clhtFqaRoOkGmMaYxJVdohvkIAtEkKVpeV8jQLQT9iw1w)
+
+  
+
+不勾選【折扣】跟【促銷和其他抵免額】，我們要追蹤的是總費用的原價，
+
+點擊【下一步】。
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEiRobcvtyPuJlFMIFOfuFON9RTH2NRiWz2J_s-zOr_UsEhqVMBLn4aOjj2lSTM3Eg3jATlSpFJPeYKSlZ-al-Qx9iTnEhGZ8plClWxLtKb2nNEVkAFpFXYF_C_HBS61VVbgFIydKIrOYM5Sj5wqCs79win8ZrlJvdW4JE2VNZCW651rwtcWzVid1O_T4mc=s16000)](https://blogger.googleusercontent.com/img/a/AVvXsEiRobcvtyPuJlFMIFOfuFON9RTH2NRiWz2J_s-zOr_UsEhqVMBLn4aOjj2lSTM3Eg3jATlSpFJPeYKSlZ-al-Qx9iTnEhGZ8plClWxLtKb2nNEVkAFpFXYF_C_HBS61VVbgFIydKIrOYM5Sj5wqCs79win8ZrlJvdW4JE2VNZCW651rwtcWzVid1O_T4mc)
+
+  
+
+設定目標金額【100】，當預算到達門檻，系統會發送電子郵件，點擊【下一步】。
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEgS5sRBYUE_hAc6OuNSXM_Whfw5lxZ_r4nvI8uPIO_3q3fZ_v2xcNBrKHVBtfLqC_DOmTQUtQh_hlnY3uT_8F0NOVPTvjKUHesBoyS8Oz6Hyd7YcC1rXCO_AU7oZ_7ODD2y8DeNl-5C-KBXOdud4Ld6qtQDPwnbgYp-xnbdWHfrFP9G1tY_ee8YeOm6N4A=s16000)](https://blogger.googleusercontent.com/img/a/AVvXsEgS5sRBYUE_hAc6OuNSXM_Whfw5lxZ_r4nvI8uPIO_3q3fZ_v2xcNBrKHVBtfLqC_DOmTQUtQh_hlnY3uT_8F0NOVPTvjKUHesBoyS8Oz6Hyd7YcC1rXCO_AU7oZ_7ODD2y8DeNl-5C-KBXOdud4Ld6qtQDPwnbgYp-xnbdWHfrFP9G1tY_ee8YeOm6N4A)
+
+  
+
+勾選紅框1中的【透過電子郵件將快訊傳送給帳單管理員和使用者】點擊【完成】。
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEhqO2CMP9aCVLr7xZvRsRHZwfNn76nf5dM1apAOg-3SFSFuuAH8jOkCiljQj_ECeuiCja0gTtwho7H1Nm9_VtxhmNhhHvl27e1aWlf6SQ_pn98sSa-ou0DHlWXA3tgjg5u2RG_8MIWE48XGKRYaq0iQAzx_lGfza9Gh0JIg6qOk3nMAeUSB-lDcGlCEFgA=s16000)](https://blogger.googleusercontent.com/img/a/AVvXsEhqO2CMP9aCVLr7xZvRsRHZwfNn76nf5dM1apAOg-3SFSFuuAH8jOkCiljQj_ECeuiCja0gTtwho7H1Nm9_VtxhmNhhHvl27e1aWlf6SQ_pn98sSa-ou0DHlWXA3tgjg5u2RG_8MIWE48XGKRYaq0iQAzx_lGfza9Gh0JIg6qOk3nMAeUSB-lDcGlCEFgA)
+
+  
+
+帳單預算建立完成。
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEjhpW-Q94iuHQYZM8k9svbkzftpjURq-fiAd6wErOo3_SniZVRtlFqRwPXju7e7RwCoW8KcrAos_pWlmTsMb-Prbt7kz74Rxw9imHUmYe79YzxzVxOqWZYEK09bOGpoMdBrWT_jQLMdNfDUzf71X0KCRtQ31ZE2urKFrbQtRPQvjZwk8j5HkiBu9j5HY3U=s16000)](https://blogger.googleusercontent.com/img/a/AVvXsEjhpW-Q94iuHQYZM8k9svbkzftpjURq-fiAd6wErOo3_SniZVRtlFqRwPXju7e7RwCoW8KcrAos_pWlmTsMb-Prbt7kz74Rxw9imHUmYe79YzxzVxOqWZYEK09bOGpoMdBrWT_jQLMdNfDUzf71X0KCRtQ31ZE2urKFrbQtRPQvjZwk8j5HkiBu9j5HY3U)
+
+  
+
+點擊【報表】，可以看到當月總費用及預測總費用。
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEgKYZ3NHtDDRRGQ74IvTRULUxXheW3MzqbvhLlYO0V_s6TUi0DjkaEhwn8y_ZoYqtTuhpMzeTGtL59UiQtsWUjNrVIcM13D0QTPZn2EXm07uBzdcbhvLBi3oZDDUyAdhUVdoZs4HJVZLtZ2TRq7ImovLO3pZ3pwxAg9U2o3SrGv_LbA-2kMiA_PywQ9usU=s16000)](https://blogger.googleusercontent.com/img/a/AVvXsEgKYZ3NHtDDRRGQ74IvTRULUxXheW3MzqbvhLlYO0V_s6TUi0DjkaEhwn8y_ZoYqtTuhpMzeTGtL59UiQtsWUjNrVIcM13D0QTPZn2EXm07uBzdcbhvLBi3oZDDUyAdhUVdoZs4HJVZLtZ2TRq7ImovLO3pZ3pwxAg9U2o3SrGv_LbA-2kMiA_PywQ9usU)
+
+  
+
+下拉選單可以看到更詳細的每日費用，以及是哪些服務用的費用。

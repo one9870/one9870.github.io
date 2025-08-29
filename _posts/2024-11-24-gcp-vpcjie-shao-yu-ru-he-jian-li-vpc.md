@@ -1,0 +1,55 @@
+---
+title: "GCP VPC介紹與如何建立VPC"
+date: 2024-11-24 03:29:00
+categories: []
+tags: []
+permalink: /posts/gcp-vpcjie-shao-yu-ru-he-jian-li-vpc/
+---
+VPC是Virtual Private Cloud（虛擬私有雲）的縮寫，它是一種網路架構服務，允許用戶在 Google Cloud 環境中創建和管理自己的虛擬網路，以下是建立VPC的步驟
+
+ 
+
+1.上方欄位搜尋VPC networks
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEjyEiwyMqDoPsQDSp_khiPjhFMMTn4H4X36xSDTUGFkjMBgzMQBduC4wFUzd-8sRlUEbs4pZzZz2jImGHsucaoDRX3SzmsDchgmirGKU9FB1iNvL7j9sDu-M_L-jHHqw-i4RDV_0EHIBrxitgCJd_muP_vsKg13B08U0bQRXfUGy-f295IFjeVhauP60qY=w596-h76)](https://blogger.googleusercontent.com/img/a/AVvXsEjyEiwyMqDoPsQDSp_khiPjhFMMTn4H4X36xSDTUGFkjMBgzMQBduC4wFUzd-8sRlUEbs4pZzZz2jImGHsucaoDRX3SzmsDchgmirGKU9FB1iNvL7j9sDu-M_L-jHHqw-i4RDV_0EHIBrxitgCJd_muP_vsKg13B08U0bQRXfUGy-f295IFjeVhauP60qY)
+
+  
+
+2.選擇建立虛擬私有雲網路
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEj_BcDgedEIWclBXTt_1V88J-BMagzSjCiZ0GrqsLAlNpe7ie_uj41jaayfXHnRp7WFHw8I_2d-HjJ6kjlQdfF-ZR_PNKhzV60MOMfurH6ZurQFnwdz771XsqUYHwWwRTrnSBb16Yka1ICa-FreenH1GkbqGwd4r0v_7vpsR0oHe0m0UYyohVh6nu44S4E=w448-h113)](https://blogger.googleusercontent.com/img/a/AVvXsEj_BcDgedEIWclBXTt_1V88J-BMagzSjCiZ0GrqsLAlNpe7ie_uj41jaayfXHnRp7WFHw8I_2d-HjJ6kjlQdfF-ZR_PNKhzV60MOMfurH6ZurQFnwdz771XsqUYHwWwRTrnSBb16Yka1ICa-FreenH1GkbqGwd4r0v_7vpsR0oHe0m0UYyohVh6nu44S4E)
+
+3. 輸入名稱並勾選子網路建立模式，勾選自動即可在各個區域中建立子網路，若為自訂則可手動定義子網路，接著設定要套用在VPC的防火牆規則，設定好後按下建立便完成了VPC的建立
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEgoHfV9WDQcQtJRnOZOb1U9DmsY2ADMpS-nO7ue9-JfSaejTy6lHwPNuv1NuZS2Hb6C6Na2WvNQH38IqwSkALnTb7YJGSHqRl3JeE9RnBU5IeFazrSFWixRZwVl0ODhODj7MG4jgcZYxziQo5Ji-etMIVywX01j2pIavy7n1-r8pZuRDQL7TPh0i3Qb_rY=w635-h355)](https://blogger.googleusercontent.com/img/a/AVvXsEgoHfV9WDQcQtJRnOZOb1U9DmsY2ADMpS-nO7ue9-JfSaejTy6lHwPNuv1NuZS2Hb6C6Na2WvNQH38IqwSkALnTb7YJGSHqRl3JeE9RnBU5IeFazrSFWixRZwVl0ODhODj7MG4jgcZYxziQo5Ji-etMIVywX01j2pIavy7n1-r8pZuRDQL7TPh0i3Qb_rY)
+
+這邊要特別注意在選取要套用至這個虛擬私有雲網路的所有防火牆規則時，系統有預設兩條規則(下圖紅框處)：
+
+Deny-all-ingress : 預設所有的網路都不可以進來拜訪到 VPC
+Network。
+
+Allow-all-egress : 預設所有內部的資源都可以拜訪到 VPC 外面的網路。
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEiUok_vyCdm5f3CKKqJnI7A2gg6nuSK2rTWSn_83aJ5NW41FXBLE3cOaQbfy2KeSYzhVeZ9L7B6fQAzaU75zypbiXWbRTC6rySZp6srvDi3PqqHvOiYrXnHtdMkS0dBdynEyDEV4oGqoBtT_IZd6-DpHxmL_AH_s7kmmEGPd4HrWV749TQLT_a5JZHKLdg=w623-h288)](https://blogger.googleusercontent.com/img/a/AVvXsEiUok_vyCdm5f3CKKqJnI7A2gg6nuSK2rTWSn_83aJ5NW41FXBLE3cOaQbfy2KeSYzhVeZ9L7B6fQAzaU75zypbiXWbRTC6rySZp6srvDi3PqqHvOiYrXnHtdMkS0dBdynEyDEV4oGqoBtT_IZd6-DpHxmL_AH_s7kmmEGPd4HrWV749TQLT_a5JZHKLdg)
+
+  
+  
+  
+
+**修改子網路**
+
+而隨著服務越來越多，子網的IP位址數量可能會不夠，這時我們就會需要進行子網路的網段擴張，首先我們先在 "子網" 頁面中查看所有已配置的子網
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEgfQylV8Utpf-umQkKHOWco_OeUhRtM2ilFYga1lkWVsmnelGoHt8-MqbGYk2s4_dsUBqYxmX73J4eiJyQaDYtE8RriNVPTu2N6Etojp29cmn-syPmBj9103-r8DVyMZs0HmBzwdp3jjpXMepcnx4Cwg43hIaVArYBt8UcvE7AeP2jxOYI-nInCnRXuDW0=w611-h342)](https://blogger.googleusercontent.com/img/a/AVvXsEgfQylV8Utpf-umQkKHOWco_OeUhRtM2ilFYga1lkWVsmnelGoHt8-MqbGYk2s4_dsUBqYxmX73J4eiJyQaDYtE8RriNVPTu2N6Etojp29cmn-syPmBj9103-r8DVyMZs0HmBzwdp3jjpXMepcnx4Cwg43hIaVArYBt8UcvE7AeP2jxOYI-nInCnRXuDW0)
+
+  
+  
+
+接著點選名稱進入想要修改網段的子網，並點選上方編輯，在子網 IP範圍設定部分，選擇新增IP範圍，填入要新增的網段，便完成了子網的擴張
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEjxcg_GS-cCTRwd5hjm2ceFBtbpx0Zg6wxsQHY4UXyrbuvuHd44RcdGM8RFOBSIWXlms3Pl6CecvEJzRysmdSJJWAcUPZMT5cepZL86V2R13kpOYr7eGbYv514mXHnJ-2yFBmuutq2ODRdK8hwM95biVc_qZIzsbe1PkE6-7qnC0rArRFZO7D0ZAW6gaG0=w613-h593)](https://blogger.googleusercontent.com/img/a/AVvXsEjxcg_GS-cCTRwd5hjm2ceFBtbpx0Zg6wxsQHY4UXyrbuvuHd44RcdGM8RFOBSIWXlms3Pl6CecvEJzRysmdSJJWAcUPZMT5cepZL86V2R13kpOYr7eGbYv514mXHnJ-2yFBmuutq2ODRdK8hwM95biVc_qZIzsbe1PkE6-7qnC0rArRFZO7D0ZAW6gaG0)
+
+  
+  
+
+在擴展子網時，需要確保你所選擇的新的IP範圍不會與VPC中的其他子網或其它已配置的IP範圍重疊。重疊的IP範圍可能會導致路由和連接問題。

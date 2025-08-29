@@ -1,0 +1,73 @@
+---
+title: "阿里雲帳號申請與管理"
+date: 2024-11-22 09:12:00
+categories: ["阿里雲教學30天上手"]
+tags: ["阿里雲教學30天上手"]
+permalink: /posts/a-li-yun-zhang-hao-shen-qing-yu-guan-li/
+---
+訪問控制(RAM): RAM是一個管理身分和權限的服務，透過身分的管理，讓不同身分的人能夠擁有不同的資源訪問權限，確保資源本身的存取控制和安全性。
+
+而我們也可以透過用戶組(RAM usergroup)來將RAM用戶分類管理，並使用訪問密鑰(AccessKey)和多因素認證(MFA)來增加帳號的安全性
+
+如何配置RAM:
+
+1.左側欄位選擇訪問控制
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEgt8SSwTulwmkxPRNsQhbs1q4NyTW6dlf4yzlMlX4PdPlyCBw1EekqIOnNrf4z5RoZyNG6ZoxNuQ_uuRAauAMx6LIBoigPe3H_rxyNbbE9Vgl79YV3DC2F-lWx6aVRHtrGche7w0Ja0w4-ICY1sKZZhrJ-eJR2zv5FELldUim5yjy-N5EowBtxvZ7Yp-1s=w245-h576)](https://blogger.googleusercontent.com/img/a/AVvXsEgt8SSwTulwmkxPRNsQhbs1q4NyTW6dlf4yzlMlX4PdPlyCBw1EekqIOnNrf4z5RoZyNG6ZoxNuQ_uuRAauAMx6LIBoigPe3H_rxyNbbE9Vgl79YV3DC2F-lWx6aVRHtrGche7w0Ja0w4-ICY1sKZZhrJ-eJR2zv5FELldUim5yjy-N5EowBtxvZ7Yp-1s)
+
+  
+
+2.選擇用戶並創建用戶
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEgWy6suq9a26dHF_L9c4AiRAyCfdEd_WhOshftYUeFmF-cZwNinS_gpyo-cH_PLkJoCEeU0H6uAtd2vv3kz0OZavVehdWEIRw9_DAVDJstlL5R3VOF-NDff9KOzXqKw36RYN8OXHqbJiAk3OtI5R41n--dPvsau4d0nVGp0yS--tUk2tynOuA361g7KxwQ=w647-h269)](https://blogger.googleusercontent.com/img/a/AVvXsEgWy6suq9a26dHF_L9c4AiRAyCfdEd_WhOshftYUeFmF-cZwNinS_gpyo-cH_PLkJoCEeU0H6uAtd2vv3kz0OZavVehdWEIRw9_DAVDJstlL5R3VOF-NDff9KOzXqKw36RYN8OXHqbJiAk3OtI5R41n--dPvsau4d0nVGp0yS--tUk2tynOuA361g7KxwQ)
+
+  
+  
+
+3.輸入登入名稱與顯示名稱，並勾選控制台訪問，其餘則按照需求進行勾選
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEgHtoMJ54L2Y3moWc17yvaZ0sOPM-QjOf0mzYOwogeqgbevq7JY6-5SUIQ2MmQe1HRmnbb_tQZ76aeppV3kYvex5XebkckdpocTEo84IyYM7CLF0FiFycVzrvEQDuo1yNILkAgKWap6AhJ1qzlBcXFxyau3KPxRkePRY49O8pfnTZpH1nQhw68KT2OUW5E=w635-h387)](https://blogger.googleusercontent.com/img/a/AVvXsEgHtoMJ54L2Y3moWc17yvaZ0sOPM-QjOf0mzYOwogeqgbevq7JY6-5SUIQ2MmQe1HRmnbb_tQZ76aeppV3kYvex5XebkckdpocTEo84IyYM7CLF0FiFycVzrvEQDuo1yNILkAgKWap6AhJ1qzlBcXFxyau3KPxRkePRY49O8pfnTZpH1nQhw68KT2OUW5E)
+
+  
+  
+
+4.創建完成後，記憶登錄名稱與密碼，將該組帳號勾選，點選添加權限，選擇該RAM用戶需要開通的權限，選擇完成後，按下確定
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEjG6svBVHYGLuOTXP6VkdZ2ALVdNtNIaWqy_hpc_ydfMZEei-USzea0Staig0OjQdOJc_ZdDYH2IxkafA9Ki8rHqzDbgKRrDyEBJvsOJKNj0EA_FJ9bRxJqPz9j72wdNrXSOrY-oCRWCKmtLahL2gU2dYtepjS-Dj2pg71nI7Nlvmx_mtoq26rDKbRz7H0=w621-h196)](https://blogger.googleusercontent.com/img/a/AVvXsEjG6svBVHYGLuOTXP6VkdZ2ALVdNtNIaWqy_hpc_ydfMZEei-USzea0Staig0OjQdOJc_ZdDYH2IxkafA9Ki8rHqzDbgKRrDyEBJvsOJKNj0EA_FJ9bRxJqPz9j72wdNrXSOrY-oCRWCKmtLahL2gU2dYtepjS-Dj2pg71nI7Nlvmx_mtoq26rDKbRz7H0)
+
+  
+  
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEjj0zuI8ARNrbzyvotj2a3eKdOTL4g1EiCLN1YkekxM3Ii2eUuEcmbQKLPCgN1Dtp2UWxICInOQGeNJC8sF5Gg8sWCw-wrAadv30aPmg50T82gkn6soB3BBY_yRzna7S3MWD6i14-H21b0igG9qLr9jiMPm0yZVOzcSLP8TWVktjFyofQ8pINI026VTAko=w625-h207)](https://blogger.googleusercontent.com/img/a/AVvXsEjj0zuI8ARNrbzyvotj2a3eKdOTL4g1EiCLN1YkekxM3Ii2eUuEcmbQKLPCgN1Dtp2UWxICInOQGeNJC8sF5Gg8sWCw-wrAadv30aPmg50T82gkn6soB3BBY_yRzna7S3MWD6i14-H21b0igG9qLr9jiMPm0yZVOzcSLP8TWVktjFyofQ8pINI026VTAko)
+
+  
+  
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEgr-4cWqwjmvHfYKLNmmM4QJF1Jzt3yAvLCN7pTR5xwe2M-sykszkt2C97nbOQ7wbwrs1PTDjRVN8BAX-qFWPIGAF09HAcCA5Vsve7ES-ltCypA-Ub1WkolSPsFSeOMn0aWxxPdCMwBAKwKtbOcZlC1OMr-1vU0TdfuQm9VSWrs35amIlGl7mMJUAzJe3w=w585-h481)](https://blogger.googleusercontent.com/img/a/AVvXsEgr-4cWqwjmvHfYKLNmmM4QJF1Jzt3yAvLCN7pTR5xwe2M-sykszkt2C97nbOQ7wbwrs1PTDjRVN8BAX-qFWPIGAF09HAcCA5Vsve7ES-ltCypA-Ub1WkolSPsFSeOMn0aWxxPdCMwBAKwKtbOcZlC1OMr-1vU0TdfuQm9VSWrs35amIlGl7mMJUAzJe3w)
+
+  
+  
+
+5.完成授權後，便可登出選擇RAM用戶登入，輸入登錄名稱與密碼，完成登錄。
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEgK29a9NzAlS7Zamuig8JhJVQDMho8Kk8fQU2aEgDJQEY3h_9jgfLBE-nWkLGkPRlp0ViCls_DyA5DTP92VtY-3i4sSm9caFZsOjFsWUto_iDpv6TfNZ8W8WVQ_pj1Kdlr1AT3_Su2mHxOnLa6BvNubqenSmtg4_ZbV0qSlslmJC5CTx56dc9_No2B2xHo=w574-h601)](https://blogger.googleusercontent.com/img/a/AVvXsEgK29a9NzAlS7Zamuig8JhJVQDMho8Kk8fQU2aEgDJQEY3h_9jgfLBE-nWkLGkPRlp0ViCls_DyA5DTP92VtY-3i4sSm9caFZsOjFsWUto_iDpv6TfNZ8W8WVQ_pj1Kdlr1AT3_Su2mHxOnLa6BvNubqenSmtg4_ZbV0qSlslmJC5CTx56dc9_No2B2xHo)
+
+  
+  
+
+6.登錄後，由於安全規範的原因，阿里雲會強制用戶綁定MFA，我們可以選擇上面的虛擬MFA設備，會出現QR code，透過Authenticator(身分驗證器)來掃描QR code獲取6位數的安全碼，輸入後便可完成MFA的綁定
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEhyBlnSEtaH7JUdX4Jlsd86PNhofjjMeCpezc84Jl7zM8pjN0JKb-dR8JXJ2N-SqNDUBrPxlprNdIMSm4C2ectk_8Ylx8ScOSZBmJizecCU1Ran7KN7Cd4qP3-UN6Rficxchw_qIKRqA032C2SdMIXlLxct_qItDczJW0M4WeOfRA1h-9vFUtAwUj39tlg=w613-h284)](https://blogger.googleusercontent.com/img/a/AVvXsEhyBlnSEtaH7JUdX4Jlsd86PNhofjjMeCpezc84Jl7zM8pjN0JKb-dR8JXJ2N-SqNDUBrPxlprNdIMSm4C2ectk_8Ylx8ScOSZBmJizecCU1Ran7KN7Cd4qP3-UN6Rficxchw_qIKRqA032C2SdMIXlLxct_qItDczJW0M4WeOfRA1h-9vFUtAwUj39tlg)
+
+  
+  
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEhgQd576HdB8g13TkIXPEk6XMEvxuv1xCVehl8ON7KyCr5KvWFyGKNFRRgYG6bT9UEvuMYfL8xE6rOLAjDAYuA7qRqid14Px33XhdmnDRhyCBngUeC8o6dNcFqoWOBKmcWflmNBlAUtC2KVjoAwsweqQWq9DC-DVRVFVtNmiiQ_t2C8aVDd2uZuDS6oW3A=w617-h353)](https://blogger.googleusercontent.com/img/a/AVvXsEhgQd576HdB8g13TkIXPEk6XMEvxuv1xCVehl8ON7KyCr5KvWFyGKNFRRgYG6bT9UEvuMYfL8xE6rOLAjDAYuA7qRqid14Px33XhdmnDRhyCBngUeC8o6dNcFqoWOBKmcWflmNBlAUtC2KVjoAwsweqQWq9DC-DVRVFVtNmiiQ_t2C8aVDd2uZuDS6oW3A)
+
+  
+  
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEiuFSk3AXeYd_LoBZl-vpY0dFYybj-fF3Ia1MdqgQLwdnl8vq7_iEWs58vrPKVlnqJOeJzZ4GK_I7IXs4JIYZVWnDrHM_HQvj-VsGsoR-cDgaXphDKrB1Y3IdfBFaetrsHg4yQdcAXbCXmASNqJx6Ru-U4Tzl1LiacdSpu5sMJU06jG01gaz6Ij4hZHgGs=w549-h947)](https://blogger.googleusercontent.com/img/a/AVvXsEiuFSk3AXeYd_LoBZl-vpY0dFYybj-fF3Ia1MdqgQLwdnl8vq7_iEWs58vrPKVlnqJOeJzZ4GK_I7IXs4JIYZVWnDrHM_HQvj-VsGsoR-cDgaXphDKrB1Y3IdfBFaetrsHg4yQdcAXbCXmASNqJx6Ru-U4Tzl1LiacdSpu5sMJU06jG01gaz6Ij4hZHgGs)
+
+  
+  

@@ -1,0 +1,60 @@
+---
+title: "阿里雲的DDoS高防設定"
+date: 2024-12-24 20:48:00
+categories: ["阿里雲"]
+tags: ["阿里雲"]
+permalink: /posts/a-li-yun-de-ddosgao-fang-she-ding/
+---
+阿里雲的DDoS高防的實例規格如下
+
+中國內地與非中國內地可選購的規格也有差異
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEj-m63MDKJRP3sRuALYs92WEci45FuoGRR5Hkxw8_nddezNDfEhn_VKJStE2Y5XqlF4-976wHEHEOihd769jSWuk3YibZGjte8Fogiq94RIyEWsDFqSgGx3JRKGduI7szE_O0ZEyJ7_71TxQsxy-vXygMyIDsf-Sqm4Vh48p8VbBqWZFX2ulqur1EDo76Xg=s16000)](https://blogger.googleusercontent.com/img/a/AVvXsEj-m63MDKJRP3sRuALYs92WEci45FuoGRR5Hkxw8_nddezNDfEhn_VKJStE2Y5XqlF4-976wHEHEOihd769jSWuk3YibZGjte8Fogiq94RIyEWsDFqSgGx3JRKGduI7szE_O0ZEyJ7_71TxQsxy-vXygMyIDsf-Sqm4Vh48p8VbBqWZFX2ulqur1EDo76Xg)
+
+ [![](https://blogger.googleusercontent.com/img/a/AVvXsEjFKp-pe0VongayiBQ2JkTeoQuTX_euRX1Nxix50u27bWljNfg9ASX3PEPlfzC1FAR-Wk2IHzk3u-YXGBpK6RfqPwuDfSBHLnNJwKD740gN3Fi6f_LJSAfiFtwF23-3OSyfpE-LWNCO-FjzFUcF03ZvtrYR-oVBVZizCwnGpU0a9j7CIipBaatt3V_bbtt2=s16000)](https://blogger.googleusercontent.com/img/a/AVvXsEjFKp-pe0VongayiBQ2JkTeoQuTX_euRX1Nxix50u27bWljNfg9ASX3PEPlfzC1FAR-Wk2IHzk3u-YXGBpK6RfqPwuDfSBHLnNJwKD740gN3Fi6f_LJSAfiFtwF23-3OSyfpE-LWNCO-FjzFUcF03ZvtrYR-oVBVZizCwnGpU0a9j7CIipBaatt3V_bbtt2)  
+  
+
+中國內地的高防防護
+
+1.保底防護：設定保底的防護流量，保底防護和彈性防護相同則無額外費用也無額外防護
+
+2.彈性防護：超過保底但不大於彈性防護的流量仍可有效防護，依據超出保底防護的帶寬產生後付費
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEh0JG71FSDbK-Eaxz4VG0yVX9dBF_ABGPjVcGko8tClfHYIGfDwfaVkU1o8DZUoHAm5GxkEScYC5h8fnuCpD_ZE8bBba615iEjAtE4dy4DjXhtAwgeYmmlnnkV8ZLO8w-PqhDgfoVkvcz3x-71_AJcm6_zETLM0vW7cH10__TLrx2qzU0pfR4m2rYrX8jKh=s16000)](https://blogger.googleusercontent.com/img/a/AVvXsEh0JG71FSDbK-Eaxz4VG0yVX9dBF_ABGPjVcGko8tClfHYIGfDwfaVkU1o8DZUoHAm5GxkEScYC5h8fnuCpD_ZE8bBba615iEjAtE4dy4DjXhtAwgeYmmlnnkV8ZLO8w-PqhDgfoVkvcz3x-71_AJcm6_zETLM0vW7cH10__TLrx2qzU0pfR4m2rYrX8jKh)
+
+  
+  
+
+非中國內地的高防防護
+
+1.保險防護：每月兩次阻擋5G以上異常流量
+
+2.無限防護：每月無次數限制阻擋5G以上異常流量
+
+無法選擇防護流量
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEhgPsKpPG6Mey849L8e-aLo5EkZgASIQ7V8r6OQNxF8WVOXUdXoHrk8m8mXKWvd2WV3dkD16LsKa3QZ7L0J8g1bgS4ac_LXQixG_zwVaxUHX_ibKAKFoL4hkuer3h8wtxqDF_ROrXoIgFFa1PmFCV3rZXBZZvruz4xntZp5tQB_ppixh3QoW9Yvnaoj3EJr=s16000)](https://blogger.googleusercontent.com/img/a/AVvXsEhgPsKpPG6Mey849L8e-aLo5EkZgASIQ7V8r6OQNxF8WVOXUdXoHrk8m8mXKWvd2WV3dkD16LsKa3QZ7L0J8g1bgS4ac_LXQixG_zwVaxUHX_ibKAKFoL4hkuer3h8wtxqDF_ROrXoIgFFa1PmFCV3rZXBZZvruz4xntZp5tQB_ppixh3QoW9Yvnaoj3EJr)
+
+  
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEij161Sxb9rsLM0ADVHhicHU66rkPeS6eRezFsY8YibKJiZSGYVByHNVfYh_UODQMdveuqhSwzwxCsz2XxtGmYbcpt3BS1Puqk6Zasa75gTMhJ24xoTR9YVXbQlSSb7rHtUDvm5U0T3XSeSOpdw42SJTfX0gpcrqtTW-vaMikyylza_DXTIqWDsuJeDTCRt=s16000)](https://blogger.googleusercontent.com/img/a/AVvXsEij161Sxb9rsLM0ADVHhicHU66rkPeS6eRezFsY8YibKJiZSGYVByHNVfYh_UODQMdveuqhSwzwxCsz2XxtGmYbcpt3BS1Puqk6Zasa75gTMhJ24xoTR9YVXbQlSSb7rHtUDvm5U0T3XSeSOpdw42SJTfX0gpcrqtTW-vaMikyylza_DXTIqWDsuJeDTCRt)
+
+  
+
+可依業務選擇帶寬流量(流量按流入或流出中的較大值計算)
+
+如流量大於所選帶寬 無法承諾SLA和DDoS防護效果 會造成丟包或影響業務
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEhHFmClkM-Kb-ORKX1mQaPyfSgkqomsHvZrcn10wzRbWNYHIu1QM113nq49XEW453sog_9PHCRMrzjo1CHXHnh_1ecbEfIYnEL8my2dloescPRcQItV4XME21-3PfMIpXwRv3hNEdZSPbw5QvlHTdr3EINtOA4VqcFYs8SKXlYYhkkrzWqBs154nTHbzr_n=s16000)](https://blogger.googleusercontent.com/img/a/AVvXsEhHFmClkM-Kb-ORKX1mQaPyfSgkqomsHvZrcn10wzRbWNYHIu1QM113nq49XEW453sog_9PHCRMrzjo1CHXHnh_1ecbEfIYnEL8my2dloescPRcQItV4XME21-3PfMIpXwRv3hNEdZSPbw5QvlHTdr3EINtOA4VqcFYs8SKXlYYhkkrzWqBs154nTHbzr_n)
+
+  
+
+防護域名與端口數可依業務需求調整，業務QPS影響新建連接數與併發連接數依需求提高(與防護CC攻擊的異常請求相關)
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEhnzJxdLbKkXYJrmH6A9se1jaymbUbR7fgIcsHvE8x3yeQfcj9kzjGYYzqnHSlxt5QuzAfJAxNJxqDlo3bsjmGN-3miC_xnwD7VhbxOZLmWZDF0ZTeGdpWjl1-u1TQ2uq3TgMFJdMFsIa7iqhI5zLZx6eu-5b6UZ9sKB9gonGy1m4wnlLAwF-vtBJmJLUPb=s16000)](https://blogger.googleusercontent.com/img/a/AVvXsEhnzJxdLbKkXYJrmH6A9se1jaymbUbR7fgIcsHvE8x3yeQfcj9kzjGYYzqnHSlxt5QuzAfJAxNJxqDlo3bsjmGN-3miC_xnwD7VhbxOZLmWZDF0ZTeGdpWjl1-u1TQ2uq3TgMFJdMFsIa7iqhI5zLZx6eu-5b6UZ9sKB9gonGy1m4wnlLAwF-vtBJmJLUPb)
+
+具體QPS與連接數關聯可參考以下
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEi2PC3f20nXA400VUGWlFEqI1zjC9ofEHEync6cFufK1F6cLLWOB724JtMAedkowH4lrAV27Sx-DI2NEiRE80STIuG_EU4o5h_qMKd1l9iLYQJxGWxZRppEPKRu3wBdraV3twUceNiS-Od0H5NuPCgwhrgnN73CA3H9VsoWeECIuaaM2s1J2Ir9go2JMQ9P=s16000)](https://blogger.googleusercontent.com/img/a/AVvXsEi2PC3f20nXA400VUGWlFEqI1zjC9ofEHEync6cFufK1F6cLLWOB724JtMAedkowH4lrAV27Sx-DI2NEiRE80STIuG_EU4o5h_qMKd1l9iLYQJxGWxZRppEPKRu3wBdraV3twUceNiS-Od0H5NuPCgwhrgnN73CA3H9VsoWeECIuaaM2s1J2Ir9go2JMQ9P)
+
+<https://www.alibabacloud.com/help/zh/anti-ddos/anti-ddos-pro-and-premium/user-guide/manage-anti-ddos-pro-or-anti-ddos-premium-instances?spm=a2c63.p38356.help-menu-28396.d_2_2_0.2a34f03elZdNsD&scm=20140722.H_283754._.OR_help-T_intl~zh-V_1#section-890-i4m-yb2>

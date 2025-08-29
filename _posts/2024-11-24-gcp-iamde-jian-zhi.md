@@ -1,0 +1,65 @@
+---
+title: "GCP IAM的建置"
+date: 2024-11-24 00:54:00
+categories: ["GCP", "GCP教學30天上手"]
+tags: ["GCP", "GCP教學30天上手"]
+permalink: /posts/gcp-iamde-jian-zhi/
+---
+# GCP IAM建置
+
+## 1.IAM服務帳戶建立
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEif9jJNZHwVIiOt4cUIrga3FPJiw2rmfvBeQJmNf7n3JtSe3330O7UQLYZaQJ4R9VY07nJhy-7YY49cUvXCnkTDq_kp9ZnzI71Zm09198FadeozXlJtvo-s3PboYO56qNvi7H2tXdLE1wSKkCGmRfnBMgfX8SDo_gGEcMrqOLGqV_Bqgjxf-Wvd0aF4Bkw=s16000)](https://blogger.googleusercontent.com/img/a/AVvXsEif9jJNZHwVIiOt4cUIrga3FPJiw2rmfvBeQJmNf7n3JtSe3330O7UQLYZaQJ4R9VY07nJhy-7YY49cUvXCnkTDq_kp9ZnzI71Zm09198FadeozXlJtvo-s3PboYO56qNvi7H2tXdLE1wSKkCGmRfnBMgfX8SDo_gGEcMrqOLGqV_Bqgjxf-Wvd0aF4Bkw)
+
+  
+
+在GCP控制台中，點擊左側導覽選單的【IAM與管理】。
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEh0T87vwerYD37Ip9-kBaEuOLig-3oa17tbvv0ECTh5Wf_UPMmLi-GXkZKuQq47CdqPziQVVR3KzGp0POEJ32PzFcDEEnv2tGSa_VR3vyaEcprdIqr-1IGFVqxo0Qaj4ven4gi7eAukBLRReuy6Kjsi61GB6SSg3EqBhn5gGZwAuBkp2ZydzSwXU0pxges=s16000)](https://blogger.googleusercontent.com/img/a/AVvXsEh0T87vwerYD37Ip9-kBaEuOLig-3oa17tbvv0ECTh5Wf_UPMmLi-GXkZKuQq47CdqPziQVVR3KzGp0POEJ32PzFcDEEnv2tGSa_VR3vyaEcprdIqr-1IGFVqxo0Qaj4ven4gi7eAukBLRReuy6Kjsi61GB6SSg3EqBhn5gGZwAuBkp2ZydzSwXU0pxges)
+
+點擊【服務帳戶】。
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEixHr28cy417olQoroiHUGVyrF4XCp06_cSTrphoGjVZO8cHlE10SMgoaf2jiILe67HvXBypw1xUKf0qRlkphoiwrGqHaqy0VRvgr86L92JvLFXm8TdwQAzwRoEJLdnn8XtB5NtQl5aufxxpCuGOUcl0vnywQ4PnB7eNByEsBBjsiZ_vriSePH0k8E5xP4=s16000)](https://blogger.googleusercontent.com/img/a/AVvXsEixHr28cy417olQoroiHUGVyrF4XCp06_cSTrphoGjVZO8cHlE10SMgoaf2jiILe67HvXBypw1xUKf0qRlkphoiwrGqHaqy0VRvgr86L92JvLFXm8TdwQAzwRoEJLdnn8XtB5NtQl5aufxxpCuGOUcl0vnywQ4PnB7eNByEsBBjsiZ_vriSePH0k8E5xP4)
+
+點擊【建立服務帳戶】。
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEgECAs62lK8ekmnb7DK4WSXu8kvXTiHRTgvIddO33e99yvdEXh3VlfkyVR076NC9yr3SACQ8P72PTgQzxgWmyZmq3_GE6haLZyxq31HArjkgUzEfew0xDQms0BPHyfsvgLZq8TXgJ_4L4iGeMwVAxuWrS36Xev6DlKcNGPKeJu5bRzDJAJgrAzqajmact4=s16000)](https://blogger.googleusercontent.com/img/a/AVvXsEgECAs62lK8ekmnb7DK4WSXu8kvXTiHRTgvIddO33e99yvdEXh3VlfkyVR076NC9yr3SACQ8P72PTgQzxgWmyZmq3_GE6haLZyxq31HArjkgUzEfew0xDQms0BPHyfsvgLZq8TXgJ_4L4iGeMwVAxuWrS36Xev6DlKcNGPKeJu5bRzDJAJgrAzqajmact4)
+
+  
+  
+
+輸入服務帳戶名稱【demo】è輸入服務帳戶ID【demo-server】è
+
+點擊【建立並繼續】。
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEgaNtspl4Dy6AgNriJUoeGnm21IdXqWusauGglB-G-n8RUXBNTMDukPSahmFZuBd3e5LKzPQf_SuiWMfMGqExJv2_EBEy0we52M447Q-5QfrVSU6IbVBZ-_mcKi6kqH6JhmCJ8Jk3iYE0Cu6I1GnOhB8JXBIYxdrLbBROTAL4j-8NLvf7V0BH-JLGVwCX8=s16000)](https://blogger.googleusercontent.com/img/a/AVvXsEgaNtspl4Dy6AgNriJUoeGnm21IdXqWusauGglB-G-n8RUXBNTMDukPSahmFZuBd3e5LKzPQf_SuiWMfMGqExJv2_EBEy0we52M447Q-5QfrVSU6IbVBZ-_mcKi6kqH6JhmCJ8Jk3iYE0Cu6I1GnOhB8JXBIYxdrLbBROTAL4j-8NLvf7V0BH-JLGVwCX8)
+
+角色選擇【編輯者】è點擊【繼續】。
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEgcinuDdM6IxjUrF0qdlGRzntQPHwW-QIJROFJSX5QGqimDBiSPf8IRuN9ilpgGyKBanbTL7h7LJI4xvl47sjSxaii4Do8iR1cxmpEufAvhk6wBxo50VRCg72UYA4FcTGXAHEfENUyzKaxTidVYSOTqC-S6x2tUWxtyH_Bn3pz-Bbvg9iVAyFdVeERYWhc=s16000)](https://blogger.googleusercontent.com/img/a/AVvXsEgcinuDdM6IxjUrF0qdlGRzntQPHwW-QIJROFJSX5QGqimDBiSPf8IRuN9ilpgGyKBanbTL7h7LJI4xvl47sjSxaii4Do8iR1cxmpEufAvhk6wBxo50VRCg72UYA4FcTGXAHEfENUyzKaxTidVYSOTqC-S6x2tUWxtyH_Bn3pz-Bbvg9iVAyFdVeERYWhc)
+
+  
+
+輸入使用者【xxxxx@gmail.com】（也可以先不輸入，等之後要新增使用者再做更改）è點擊【完成】。
+
+## 2建立金鑰
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEhTETub3XqlqGfkQdm_s7O05Eg8AUuUs-_Rcgi5jCt4JlGNGyV_9cYKwHOm-EYW6QJdJftH5BCvu7gWCAczkpD1_PXZMDtZI2feUFogL-4brzwHFuAQLHVbNDrVgSHx7zjpUjci0VF1WtnxCN3YLt1b4vZGhZ-jr_j6IG88ClzwVaXXysexCnPKC6LZd2A=s16000)](https://blogger.googleusercontent.com/img/a/AVvXsEhTETub3XqlqGfkQdm_s7O05Eg8AUuUs-_Rcgi5jCt4JlGNGyV_9cYKwHOm-EYW6QJdJftH5BCvu7gWCAczkpD1_PXZMDtZI2feUFogL-4brzwHFuAQLHVbNDrVgSHx7zjpUjci0VF1WtnxCN3YLt1b4vZGhZ-jr_j6IG88ClzwVaXXysexCnPKC6LZd2A)
+
+剛剛建立的服務帳戶右側點擊選單點擊è點擊【管理金鑰】。
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEgp7mzshwtQ_Rp-2TzYE2S9AGaFt5YZeiuWXLiQNvykyOTOL3nNX7mds-JnAShDjDEnG9uzrcWfYiJuPrjcBz_tisFueC9-nQAHjoNioUE8EV62Fedh_uzaErYXu0wx6zpTLHryT1r9T-xM1dKG38Az20GzbV1XRUibnkJe7uwQKLXoE0x73tZbePcBJUg=s16000)](https://blogger.googleusercontent.com/img/a/AVvXsEgp7mzshwtQ_Rp-2TzYE2S9AGaFt5YZeiuWXLiQNvykyOTOL3nNX7mds-JnAShDjDEnG9uzrcWfYiJuPrjcBz_tisFueC9-nQAHjoNioUE8EV62Fedh_uzaErYXu0wx6zpTLHryT1r9T-xM1dKG38Az20GzbV1XRUibnkJe7uwQKLXoE0x73tZbePcBJUg)
+
+  
+
+點擊【新增金鑰】è點擊【建立新的金鑰】。
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEgsNUkN_9OSnr3ab_zlob0_7c70F6s8tYoOiyD-pwTeecjQt2sjXAr8ij95UBvI8GZ_9F6RvXKgtBT5EsrYk3bFSxTwZAPVFI31ipMegONvrTxddhR5iSUGZDVNzDf8Oub-orzUsa6EvoJ-QdKdQeAX6UXXvRlOPpP_KT1daeu8BPgT26uFCEd8cOadJQc=s16000)](https://blogger.googleusercontent.com/img/a/AVvXsEgsNUkN_9OSnr3ab_zlob0_7c70F6s8tYoOiyD-pwTeecjQt2sjXAr8ij95UBvI8GZ_9F6RvXKgtBT5EsrYk3bFSxTwZAPVFI31ipMegONvrTxddhR5iSUGZDVNzDf8Oub-orzUsa6EvoJ-QdKdQeAX6UXXvRlOPpP_KT1daeu8BPgT26uFCEd8cOadJQc)
+
+  
+
+選擇【JSON】è點擊【建立】。
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEiK-ZQf6ZYviEZ1ggZB_izJwyPYRez9j-OnvuVsU9kFaBJR50jqdrCp4XLzv_eObAO4F6S9qDcHiv11Y_-UaC-qVpFoP958jJ005QzgfDlemsef6aqYCLiXhpjaqIgiajSxsTZEbkTnu4f-rM_Kpy1HYJHu_dsrKDYaLCs7BnD9cSgakMHsNeOhwuQZPrE=s16000)](https://blogger.googleusercontent.com/img/a/AVvXsEiK-ZQf6ZYviEZ1ggZB_izJwyPYRez9j-OnvuVsU9kFaBJR50jqdrCp4XLzv_eObAO4F6S9qDcHiv11Y_-UaC-qVpFoP958jJ005QzgfDlemsef6aqYCLiXhpjaqIgiajSxsTZEbkTnu4f-rM_Kpy1HYJHu_dsrKDYaLCs7BnD9cSgakMHsNeOhwuQZPrE)
+
+金鑰建立完成

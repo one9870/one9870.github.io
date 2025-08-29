@@ -1,0 +1,67 @@
+---
+title: "針對AWS abuse report的強化保護措施"
+date: 2024-11-04 05:50:00
+categories: ["AWS"]
+tags: ["AWS"]
+permalink: /posts/zhen-dui-aws-abuse-reportde-qiang-hua-bao-hu-cuo-shi/
+---
+針對AWS abuse report的強化保護措施
+
+當我們收到AWS Abuse Report(如下圖)後，我們可以依照以下三點進行調整以減少被攻擊、濫用資源的情況發生。
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEhHBSFpU9FtsAbh6Ri0azGlspWP9HQJRz6JMMJyQ9wx5vgg0cMkhWWk5I2HN0nx34PSwpBlr6ioEmwRLVaKQLr2Q3wzjH0340QFMHlIg8QWU4jrGbTFrIajkfL-QM5EXlOH-lA0kJTqfkoGOsqll-rwMhDthoSrM_8hWqpF9R4LAyosreLInY7sjjzKp9c=w628-h262)](https://blogger.googleusercontent.com/img/a/AVvXsEhHBSFpU9FtsAbh6Ri0azGlspWP9HQJRz6JMMJyQ9wx5vgg0cMkhWWk5I2HN0nx34PSwpBlr6ioEmwRLVaKQLr2Q3wzjH0340QFMHlIg8QWU4jrGbTFrIajkfL-QM5EXlOH-lA0kJTqfkoGOsqll-rwMhDthoSrM_8hWqpF9R4LAyosreLInY7sjjzKp9c)
+
+1.重新檢查所有機器安全組設定
+
+      登入AWS後左上方搜尋欄搜尋EC2，並在左側欄位點選安全群組
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEi-n6cgc-0a0bJDDOO80vH3skIvc9tPxsIn2G5_rx8CDA5BC-5Bm9niTLYKlN6IPZ75nTHCeXCLP9Aq-N1z9DymOtOFVnicpAlza6_3dVD0fRNx775YsDA8w5SkX0Dt3PVAyBKyMg4y68a9fE4-n7e-Kh5s9kHfR_9s0enr6ITsqtVHVW3GJ_mu3o6tkQU=w552-h366)](https://blogger.googleusercontent.com/img/a/AVvXsEi-n6cgc-0a0bJDDOO80vH3skIvc9tPxsIn2G5_rx8CDA5BC-5Bm9niTLYKlN6IPZ75nTHCeXCLP9Aq-N1z9DymOtOFVnicpAlza6_3dVD0fRNx775YsDA8w5SkX0Dt3PVAyBKyMg4y68a9fE4-n7e-Kh5s9kHfR_9s0enr6ITsqtVHVW3GJ_mu3o6tkQU)
+
+  
+  
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEhr3oXeRWiMY11-89oxEWmpakEmepcv4eiF_eEAzXWsUv6M75T91OqjcLsB0pM-rv-OAeFP-q0IlJrFz71mtGvcC7J7C20FBOkd4_vp4VosyyE2TSfKBPC9s6ax17MjL3G_P9MvK1uCNXJG6wt6FjBy1fR9dqLYBQwVe-uf4029M6iI65omCZ5CDewg9p4=w183-h542)](https://blogger.googleusercontent.com/img/a/AVvXsEhr3oXeRWiMY11-89oxEWmpakEmepcv4eiF_eEAzXWsUv6M75T91OqjcLsB0pM-rv-OAeFP-q0IlJrFz71mtGvcC7J7C20FBOkd4_vp4VosyyE2TSfKBPC9s6ax17MjL3G_P9MvK1uCNXJG6wt6FjBy1fR9dqLYBQwVe-uf4029M6iI65omCZ5CDewg9p4)
+
+  
+  
+
+接著點選與信中實例ID相應的安全群組，並查看規則是否有設定正確
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEhaiKVUHvOgFAy1u1gKvCAD-nsDDZK1R2uMqFYkKcrdvJmT6Kmg-biwHt4c-rYdi4_1kbUlVixgVZp3aXl8qTpopVD1XkPvGe1mryjDEHsRPfvAAqYJ96WJsjPUlPR_TwR_h9YcfyUMKJPVs9k19z75_dFmcJvNhEmFy3VpaFcgrZqnU51gMivdBhM6J_4=w603-h98)](https://blogger.googleusercontent.com/img/a/AVvXsEhaiKVUHvOgFAy1u1gKvCAD-nsDDZK1R2uMqFYkKcrdvJmT6Kmg-biwHt4c-rYdi4_1kbUlVixgVZp3aXl8qTpopVD1XkPvGe1mryjDEHsRPfvAAqYJ96WJsjPUlPR_TwR_h9YcfyUMKJPVs9k19z75_dFmcJvNhEmFy3VpaFcgrZqnU51gMivdBhM6J_4)
+
+  
+  
+
+2.使用 Inspector 檢測已知機器漏洞，提供修補建議
+
+透過Amazon Inspector，我們能夠持續掃描工作負載中的軟體漏洞和意外網路暴露，提早進行防範，有效避免實例被攻擊的情況發生。
+
+3. Cloudwatch 告警監控通知
+
+除了以上兩點之外，我們也可以透過Cloudwatch來進行監控，確保在有攻擊事件發生時，能夠第一時間收到通知，以下為使用Cloudwatch的步驟與功能:
+
+ 
+
+首先我們在控制台首頁，找到並點擊「CloudWatch」服務
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEgVAn7slPnxwCrsz_2MiShe66l_wUdIsPhsddMMjF-8CBkeOZcAUx28jJ205xvil8zfy_GxTs07g_voE5MGMqy3dHSYNIxqLR372u3xA66D0gDKVme-GcWX7E_fULEQwq9O_TfGsVOahONh1OovaNHwE3nPYe-KVRc82SLX5oNN_rEm-NZ-t9j3tuEEtIw=w667-h164)](https://blogger.googleusercontent.com/img/a/AVvXsEgVAn7slPnxwCrsz_2MiShe66l_wUdIsPhsddMMjF-8CBkeOZcAUx28jJ205xvil8zfy_GxTs07g_voE5MGMqy3dHSYNIxqLR372u3xA66D0gDKVme-GcWX7E_fULEQwq9O_TfGsVOahONh1OovaNHwE3nPYe-KVRc82SLX5oNN_rEm-NZ-t9j3tuEEtIw)
+
+  
+  
+  
+
+我們可以在左側欄位中，選擇「指標」，指標可以查看 AWS 資源（如 EC2、RDS、S3 等）的各種性能指標
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEjJLk2Zah6jAYbbH15fsT3qE9T9TRhpbvOD1dIHZSLayJa1sFVbUuoqvwYLm31Ja0i4QqHFn_hmvUugNGuBYbdbiYpYAv49BjrG9DtGOCIvnrsBRBywqtYMSXwLywLiwD8Tlha0kEB_hNVwkh2EQE_l7Z2mb89NBp_64xBD2Dp9yGjsH6ItEN_A40BpIIM=w629-h263)](https://blogger.googleusercontent.com/img/a/AVvXsEjJLk2Zah6jAYbbH15fsT3qE9T9TRhpbvOD1dIHZSLayJa1sFVbUuoqvwYLm31Ja0i4QqHFn_hmvUugNGuBYbdbiYpYAv49BjrG9DtGOCIvnrsBRBywqtYMSXwLywLiwD8Tlha0kEB_hNVwkh2EQE_l7Z2mb89NBp_64xBD2Dp9yGjsH6ItEN_A40BpIIM)
+
+  
+  
+  
+
+除了指標外，我們也可以在「警示」欄位設定警報和閾值的觸發條件，在系統到達設定的閾值時，發送通知
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEhEVFf7lYQvszwPIFXZVXu8HWsZ7iMdWXiIpFtYatheigELQgvZSbIsyyb32K9Idtq_tqFyOkNfl997fWlfnslcGj7aaZvbdUYMi5ap497q3A9rFMv3ZYPp7Aauv36CvsRiM4eObtYd5_J1HowigBVrqrHEC0RyvOYmdQwsYRVWw5RPmi6lGfn4VmvcCiE=w648-h275)](https://blogger.googleusercontent.com/img/a/AVvXsEhEVFf7lYQvszwPIFXZVXu8HWsZ7iMdWXiIpFtYatheigELQgvZSbIsyyb32K9Idtq_tqFyOkNfl997fWlfnslcGj7aaZvbdUYMi5ap497q3A9rFMv3ZYPp7Aauv36CvsRiM4eObtYd5_J1HowigBVrqrHEC0RyvOYmdQwsYRVWw5RPmi6lGfn4VmvcCiE)
+
+而Cloudwatch中的日誌能夠透過 AWS 提供的服務（如 EC2、Lambda、RDS 等）自動收集，也能夠根據日誌數據創建警報，在檢測到特定事件時及時通知使用者。
+
+[![](https://blogger.googleusercontent.com/img/a/AVvXsEjkhYFpq-1QSaJaN9U7FZ33wqU3PZT-falVuJQfUSUZIqDUfKmuUeduOyTVBRzX4QdiFua48YPxnS0We7FyCCbPd0ASpIuKJ7mU5f4zBIQlg82J34A4ox29C_-h2lGLV_GzVVZAKU9pzVJb9lv6lxRrgaAbdzXpFXXunvSoCmKMfdMDI4_KwYQdLw6hqow=w656-h299)](https://blogger.googleusercontent.com/img/a/AVvXsEjkhYFpq-1QSaJaN9U7FZ33wqU3PZT-falVuJQfUSUZIqDUfKmuUeduOyTVBRzX4QdiFua48YPxnS0We7FyCCbPd0ASpIuKJ7mU5f4zBIQlg82J34A4ox29C_-h2lGLV_GzVVZAKU9pzVJb9lv6lxRrgaAbdzXpFXXunvSoCmKMfdMDI4_KwYQdLw6hqow)

@@ -1,7 +1,7 @@
 ---
 title: "NSPA 封包分析證照考試分享"
 date: 2020-11-24 02:00:00
-categories: [IT認證考試Certification Exam Information]
+categories: [IT認證考試]
 tags: [Network, Certification]
 permalink: /posts/NSPA/
 ---
