@@ -1,4 +1,4 @@
----
+﻿---
 title: "使用網站及指令查詢IP"
 date: 2025-01-18 18:39:00
 categories: ["指令", "網路工具", "網路相關 Network technology"]
@@ -29,7 +29,7 @@ permalink: /posts/shi-yong-wang-zhan-ji-zhi-ling-cha-xun-ip/
 
  
 
-**想要查詢某個網站的伺服器IP(以<http://smokeping.asuscomm.com/>為例)，則可以在終端輸入指令nslookup + 網域**
+**想要查詢某個網站的伺服器IP(以<https://smokeping.asuscomm.com/>為例)，則可以在終端輸入指令nslookup + 網域**
 
 **1.****先按Windows鍵+R 輸入 cmd**
 

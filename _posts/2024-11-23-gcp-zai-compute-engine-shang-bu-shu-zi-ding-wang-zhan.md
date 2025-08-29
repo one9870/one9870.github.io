@@ -1,4 +1,4 @@
----
+﻿---
 title: "GCP 在 Compute Engine 上部署自訂網站"
 date: 2024-11-23 08:15:00
 categories: ["GCP教學30天上手"]
@@ -133,7 +133,7 @@ Static IP Address」(保留外部靜態 IP 位址) 。**
 
 ③       
 在「DNS 名稱」中，輸入您網站的網域名稱 (不含前置字元)，例如輸入
-example.com，而不是 [www.example.com](http://www.example.com/)。
+example.com，而不是 [www.example.com](https://www.example.com/)。
 
 ④       
 如未設定 DNSSEC(DNS Security Extensions)，選“已停用“。
