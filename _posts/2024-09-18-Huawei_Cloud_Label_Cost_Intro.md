@@ -2,8 +2,8 @@
 title: "華為雲成本標籤---對雲服務器添加標籤及應用"
 date: 2024-09-18 12:08:00
 categories: ["華為雲"]
-tags: ["華為雲"]
-permalink: /posts/hua-wei-yun-cheng-ben-biao-qian-dui-yun-fu-wu-qi-tian-jia-biao-qian-ji-ying-yong/
+tags: ["華為雲", "標籤", "成本"]
+permalink: /posts/huawei-cloud-label-cost-intro/
 ---
  可以透過以下兩種方式為華為雲雲端資源進行新增標籤(tag / tag management)的動作：
 

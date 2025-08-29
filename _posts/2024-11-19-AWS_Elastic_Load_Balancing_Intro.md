@@ -1,9 +1,9 @@
 ---
 title: "AWS Elastic Load Balancing介紹"
 date: 2024-11-19 21:42:00
-categories: ["AWS", "AWS教學30天上手"]
-tags: ["AWS", "AWS教學30天上手"]
-permalink: /posts/aws-elastic-load-balancingjie-shao/
+categories: ["AWS"]
+tags: ["AWS", "Elastic Load Balancing", "ELB", "教學30天上手"]
+permalink: /posts/aws-elastic-load-balancing-intro/
 ---
 Elastic Load Balancing (ELB) 是一項自動將傳入的應用程式流量分配到多個目標（如 EC2 實例、容器、IP 地址等）的服務。
 

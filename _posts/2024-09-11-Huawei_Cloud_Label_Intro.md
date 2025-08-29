@@ -3,7 +3,7 @@ title: "華為雲成本標籤介紹"
 date: 2024-09-11 12:28:00
 categories: ["華為雲"]
 tags: ["華為雲", "標籤"]
-permalink: /posts/huawei-cloud-label/
+permalink: /posts/huawei-cloud-label-intro/
 ---
 1.什麼是標籤
 

@@ -1,9 +1,9 @@
 ---
-title: "問AWS NLB如何調整才能使兩EC2所獲得請求一致"
+title: "AWS NLB如何調整才能使兩EC2所獲得請求一致"
 date: 2024-11-19 11:35:00
-categories: ["AWS", "NLB"]
+categories: ["AWS"]
 tags: ["AWS", "NLB"]
-permalink: /posts/wen-aws-nlbru-he-diao-zheng-cai-neng-shi-liang-ec2suo-huo-de-qing-qiu-yi-zhi/
+permalink: /posts/aws-nlb-two-ec2-request-the-same/
 ---
 如果在AWS上設置了兩台EC2實例，分別位於不同的可用區（Availability Zone），並配置了NLB（網路負載均衡器）來進行流量分配。目前注意到，當在兩台EC2實例上分別執行Linux指令 `netstat -tunlpa | wc -l` 來檢查網路連接數時，發現兩邊的結果並不一致。更具體地說，流量似乎大多集中在其中一台EC2實例上，這引發了相關的疑問。
 

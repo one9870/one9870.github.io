@@ -1,9 +1,9 @@
 ---
 title: "Azure  CPU的Baseline & Burst介紹"
 date: 2024-11-09 17:19:00
-categories: ["AZURE"]
-tags: ["AZURE"]
-permalink: /posts/azure-cpude-baseline-burstjie-shao/
+categories: ["Azure"]
+tags: ["Azure", "CPU", "baseline", "burst"]
+permalink: /posts/azure-cpu-baseline-burst-intro/
 ---
 一、高載效能執行個體 (Burstable performance instances)  
   

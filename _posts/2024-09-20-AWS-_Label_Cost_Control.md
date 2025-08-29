@@ -1,9 +1,9 @@
 ---
-title: "untitled"
+title: "AWS使用標籤功能控管成本"
 date: 2024-09-20 01:58:00
-categories: ["AWS", "AWS教學30天上手"]
-tags: ["AWS", "AWS教學30天上手"]
-permalink: /posts/untitled/
+categories: ["AWS"]
+tags: ["AWS", "教學30天上手"]
+permalink: /posts/aws-label-cost-control/
 ---
 # AWS使用標籤功能控管成本
 

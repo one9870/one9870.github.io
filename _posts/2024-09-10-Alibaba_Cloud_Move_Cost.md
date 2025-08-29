@@ -1,9 +1,9 @@
 ---
 title: "阿里雲IDC遷雲成本評估/線上調研阿里雲資源"
 date: 2024-09-10 23:10:00
-categories: ["阿里雲Alibaba Cloud", "阿里雲教學30天上手"]
-tags: ["阿里雲Alibaba Cloud", "阿里雲教學30天上手"]
-permalink: /posts/a-li-yun-idcqian-yun-cheng-ben-ping-gu-xian-shang-diao-yan-a-li-yun-zi-yuan/
+categories: ["阿里雲"]
+tags: ["阿里雲", "教學30天上手", "成本", "評估", "資源"]
+permalink: /posts/alibaba-cloud-move-cost/
 ---
 IDC遷雲成本評估
 

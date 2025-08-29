@@ -3,7 +3,7 @@ title: "阿里雲帳號申請與管理"
 date: 2024-11-22 09:12:00
 categories: ["阿里雲教學30天上手"]
 tags: ["阿里雲教學30天上手"]
-permalink: /posts/a-li-yun-zhang-hao-shen-qing-yu-guan-li/
+permalink: /posts/alibaba-cloud-accound-apply-manage/
 ---
 訪問控制(RAM): RAM是一個管理身分和權限的服務，透過身分的管理，讓不同身分的人能夠擁有不同的資源訪問權限，確保資源本身的存取控制和安全性。
 

@@ -1,9 +1,9 @@
 ---
-title: "自動化運維(OOS)"
+title: "阿里雲自動化運維(OOS)"
 date: 2024-11-16 19:04:00
-categories: ["阿里雲", "阿里雲Alibaba Cloud", "阿里雲教學30天上手"]
-tags: ["阿里雲", "阿里雲Alibaba Cloud", "阿里雲教學30天上手"]
-permalink: /posts/zi-dong-hua-yun-wei-oos/
+categories: ["阿里雲"]
+tags: ["阿里雲", "OOS", "自動化", "教學30天上手"]
+permalink: /posts/alibaba-cloud-oos/
 ---
 # 自動化運維(OOS)
 

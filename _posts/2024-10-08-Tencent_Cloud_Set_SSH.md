@@ -1,9 +1,9 @@
 ---
 title: "騰訊雲設置安全組，並使用SSH進行連線"
 date: 2024-10-08 18:25:00
-categories: ["腾讯云 Tencent", "騰訊雲"]
-tags: ["腾讯云 Tencent", "騰訊雲"]
-permalink: /posts/teng-xun-yun-she-zhi-an-quan-zu-bing-shi-yong-sshjin-xing-lian-xian/
+categories: ["騰訊雲"]
+tags: ["騰訊雲", "ssh"]
+permalink: /posts/tencent-cloud-set-ssh/
 ---
  騰訊雲的預設端口為port 22
 

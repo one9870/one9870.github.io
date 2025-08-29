@@ -1,9 +1,9 @@
 ---
 title: "阿里雲－CDN建置"
 date: 2024-11-16 15:10:00
-categories: ["阿里雲", "阿里雲Alibaba Cloud", "阿里雲教學30天上手"]
-tags: ["阿里雲", "阿里雲Alibaba Cloud", "阿里雲教學30天上手"]
-permalink: /posts/a-li-yun-cdnjian-zhi/
+categories: ["阿里雲"]
+tags: ["阿里雲", "CDN", "阿里雲教學30天上手"]
+permalink: /posts/alibaba-cloud-cdn/
 ---
 **阿里雲CDN**
 

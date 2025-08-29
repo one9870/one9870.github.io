@@ -3,7 +3,7 @@ title: "如何確認阿里雲域名cname更新後是否已生效"
 date: 2024-10-09 09:13:00
 categories: ["阿里雲"]
 tags: ["阿里雲"]
-permalink: /posts/ru-he-que-ren-a-li-yun-yu-ming-cnamegeng-xin-hou-shi-fou-yi-sheng-xiao/
+permalink: /posts/alibaba-cloud-cname-change-work/
 ---
 有時阿里雲的托管域名在更改 cname 後無法正常訪問，這時可利用【nslookup -type=CNAME <托管域名>】指令查看目前該域名的 cname，再跟阿里雲控制台比對是否相同。
 

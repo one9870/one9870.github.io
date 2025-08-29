@@ -2,8 +2,8 @@
 title: "阿里雲OSS跟RDS"
 date: 2024-09-12 06:53:00
 categories: ["阿里雲"]
-tags: ["阿里雲"]
-permalink: /posts/a-li-yun-ossgen-rds/
+tags: ["阿里雲", "oss", "rds"]
+permalink: /posts/alibaba-cloud-oss-rds/
 ---
 以下將說明檢查阿里雲的OSS跟RDS服務
 

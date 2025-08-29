@@ -2,7 +2,7 @@
 title: "若出現AWS EC2'數據不足'且異常重啟，應如何檢視與處置"
 date: 2025-03-29 00:19:00
 categories: ["AWS"]
-tags: ["AWS"]
+tags: ["AWS", "EC2", "重啟"]
 permalink: /posts/ec2-abnormal-restart/
 ---
             [![](/assets/images/FIRST0.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcHqexFh0RLgEFZlnrzhBcXHEzF1JYlmn8G3e43lGHv-xRcM4DB97wN5sbvxIivbiueuMoDwY4gRxcFnmaqTzIGZ6jHn_Ywy8yMqNi8geWFaUaNnFiiqiWNwKzrqcOdYqQji4Ovs-sP2VawsCfHUVTzKkCesEag34_qZtvZfgM4QVHkskUAyyOoXYrUDk/s1071/FIRST0.jpg)  

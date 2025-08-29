@@ -1,9 +1,9 @@
 ---
 title: "Supermirco Server 做硬碟raid設置"
 date: 2024-10-29 04:11:00
-categories: []
-tags: []
-permalink: /posts/supermirco-server-zuo-ying-die-raidshe-zhi/
+categories: ["IT知識"]
+tags: ["server", "raid"]
+permalink: /posts/supermirco-server-raid/
 ---
 Supermirco Server 做硬碟raid設置
 

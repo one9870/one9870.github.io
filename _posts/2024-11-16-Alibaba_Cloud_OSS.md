@@ -1,19 +1,17 @@
 ---
 title: "對象存儲(OSS)"
 date: 2024-11-16 19:26:00
-categories: ["阿里雲", "阿里雲Alibaba Cloud", "阿里雲教學30天上手"]
-tags: ["阿里雲", "阿里雲Alibaba Cloud", "阿里雲教學30天上手"]
-permalink: /posts/dui-xiang-cun-chu-oss/
+categories: ["阿里雲"]
+tags: ["阿里雲", "OSS", "阿里雲教學30天上手"]
+permalink: /posts/alibaba-cloud-oss/
 ---
 # 對象存儲(OSS)
 
 [![](https://blogger.googleusercontent.com/img/a/AVvXsEgdBeaZq428xlvS5uz9i1SZvR_sMwgVpju6RKd0RMxLakXyG81HBUUSvoj_5m7VoAKWVF9jCXP_rpCHt9WufEe-FduhJlMdZueSRntr-0JCFGdUHfqJOVQ62olaE5wYGexoa5YJ_wPPnhkoFizp4oTIUWYVw-VU9HbuagfmHk63-2QDCFXQJafxQXoJs00=s16000)](https://blogger.googleusercontent.com/img/a/AVvXsEgdBeaZq428xlvS5uz9i1SZvR_sMwgVpju6RKd0RMxLakXyG81HBUUSvoj_5m7VoAKWVF9jCXP_rpCHt9WufEe-FduhJlMdZueSRntr-0JCFGdUHfqJOVQ62olaE5wYGexoa5YJ_wPPnhkoFizp4oTIUWYVw-VU9HbuagfmHk63-2QDCFXQJafxQXoJs00)
 
-  
 
 在阿里雲的主控台紅框中的地方搜尋OSS並點選對象存儲
 
- 
 
 [![](https://blogger.googleusercontent.com/img/a/AVvXsEhqaNawbG1AAb77QmxNAyRwtzGXiNyXlf3Q8-g0rFLVf88QH7LkaxOXnIqKukatSyXGzHhLmjneCaYBSoXO7Gn9lO6I9Xo3Qo3UtZwdd2Eyuu2pHElzL8xjgSwNO8yR1mrDx4EwrGUQCZPVA8lvMQuZLwMD02aqPCWhjjzLfU4NdrBdoiUP0pIQPWAY7TI=s16000)](https://blogger.googleusercontent.com/img/a/AVvXsEhqaNawbG1AAb77QmxNAyRwtzGXiNyXlf3Q8-g0rFLVf88QH7LkaxOXnIqKukatSyXGzHhLmjneCaYBSoXO7Gn9lO6I9Xo3Qo3UtZwdd2Eyuu2pHElzL8xjgSwNO8yR1mrDx4EwrGUQCZPVA8lvMQuZLwMD02aqPCWhjjzLfU4NdrBdoiUP0pIQPWAY7TI)
 

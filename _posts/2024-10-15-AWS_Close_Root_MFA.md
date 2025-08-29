@@ -2,8 +2,8 @@
 title: "如何關閉AWS root帳號的MFA"
 date: 2024-10-15 08:18:00
 categories: ["AWS"]
-tags: ["AWS"]
-permalink: /posts/ru-he-guan-bi-aws-rootzhang-hao-de-mfa/
+tags: ["AWS", "root", "MFA"]
+permalink: /posts/aws-close-root-mfa/
 ---
  
 

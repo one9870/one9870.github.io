@@ -1,9 +1,9 @@
 ---
 title: "2-3 阿里雲伺服器架設"
 date: 2024-11-18 08:34:00
-categories: ["阿里雲", "阿里雲Alibaba Cloud", "阿里雲教學30天上手"]
-tags: ["阿里雲", "阿里雲Alibaba Cloud", "阿里雲教學30天上手"]
-permalink: /posts/2-3-a-li-yun-si-fu-qi-jia-she/
+categories: ["阿里雲"]
+tags: ["阿里雲", "server", "教學30天上手"]
+permalink: /posts/alibaba-cloud-server-setting/
 ---
 **雲伺服器 ( Elastic Compute
 Service • ECS)**

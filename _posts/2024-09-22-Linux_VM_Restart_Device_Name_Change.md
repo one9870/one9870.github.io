@@ -3,7 +3,7 @@ title: "在 Linux VM 中，重新啟動或重新連結數據磁碟後，裝置�
 date: 2024-09-22 04:12:00
 categories: ["Linux"]
 tags: ["Linux", "VM", "重新啟動"]
-permalink: /posts/linux-vm-restart/
+permalink: /posts/linux-vm-restart-device-name-change/
 ---
 ### 問題徵兆：
 

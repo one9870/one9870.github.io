@@ -1,9 +1,9 @@
 ---
 title: "GCP手機app無法連線ssh排除方式"
 date: 2024-11-18 00:35:00
-categories: ["GCP", "GCP教學30天上手"]
-tags: ["GCP", "GCP教學30天上手"]
-permalink: /posts/gcpshou-ji-appwu-fa-lian-xian-sshpai-chu-fang-shi/
+categories: ["GCP"]
+tags: ["GCP", "app", "ssh", "教學30天上手"]
+permalink: /posts/gcp-app-ssh-disable/
 ---
  若使用GCP網頁版和App版嘗試連線，只有App版發生錯誤，就可能為App連線中經過的google跳板機IP進行更動，以下為排除方式 :
 

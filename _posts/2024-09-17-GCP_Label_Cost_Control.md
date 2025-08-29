@@ -2,8 +2,8 @@
 title: "GCP使用標籤功能控管成本"
 date: 2024-09-17 01:55:00
 categories: ["GCP"]
-tags: ["GCP"]
-permalink: /posts/gcpshi-yong-biao-qian-gong-neng-kong-guan-cheng-ben/
+tags: ["GCP", "標籤", "成本", "控管"]
+permalink: /posts/gcp-label-cost-control/
 ---
 ## GCP使用標籤功能控管成本
 

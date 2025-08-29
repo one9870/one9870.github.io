@@ -2,8 +2,8 @@
 title: "針對AWS abuse report的強化保護措施"
 date: 2024-11-04 05:50:00
 categories: ["AWS"]
-tags: ["AWS"]
-permalink: /posts/zhen-dui-aws-abuse-reportde-qiang-hua-bao-hu-cuo-shi/
+tags: ["AWS", "abuse", "report", "保護"]
+permalink: /posts/aws-abuse-report-protect/
 ---
 針對AWS abuse report的強化保護措施
 

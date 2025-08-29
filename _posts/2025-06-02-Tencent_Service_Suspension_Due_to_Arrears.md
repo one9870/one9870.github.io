@@ -2,7 +2,7 @@
 title: "騰訊雲子客戶欠費停服規則"
 date: 2025-06-02 03:32:00
 categories: ["騰訊雲"]
-tags: ["騰訊雲"]
+tags: ["騰訊雲", "欠費"]
 permalink: /posts/service-suspension-due-to-arrears/
 ---
 ### 子客戶停服規則

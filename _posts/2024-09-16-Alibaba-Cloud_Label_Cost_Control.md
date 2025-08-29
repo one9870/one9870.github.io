@@ -1,9 +1,9 @@
 ---
 title: "在阿里雲上使用標籤功能控管成本"
 date: 2024-09-16 06:54:00
-categories: ["阿里雲", "阿里雲Alibaba Cloud"]
-tags: ["阿里雲", "阿里雲Alibaba Cloud"]
-permalink: /posts/zai-a-li-yun-shang-shi-yong-biao-qian-gong-neng-kong-guan-cheng-ben/
+categories: ["阿里雲"]
+tags: ["阿里雲", "標籤", "成本", "控管"]
+permalink: /posts/alibaba-cloud-label-cost-control/
 ---
 在阿里雲上使用標籤功能控管成本
 

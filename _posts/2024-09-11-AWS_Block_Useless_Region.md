@@ -2,8 +2,8 @@
 title: "AWS 關閉沒在使用的Region(從account level block)"
 date: 2024-09-11 00:38:00
 categories: ["AWS"]
-tags: ["AWS"]
-permalink: /posts/aws-guan-bi-mei-zai-shi-yong-de-region-cong-account-level-block/
+tags: ["AWS", "region"]
+permalink: /posts/aws-block-useless-region/
 ---
 為避免同仁誤觸到其他region，故要 deny 掉沒有在用的 region，
 

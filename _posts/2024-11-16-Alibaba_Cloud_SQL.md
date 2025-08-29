@@ -1,9 +1,9 @@
 ---
-title: "雲端資料庫"
+title: "阿里雲的雲端資料庫類型"
 date: 2024-11-16 17:32:00
-categories: ["阿里雲教學30天上手"]
-tags: ["阿里雲教學30天上手"]
-permalink: /posts/yun-duan-zi-liao-ku/
+categories: ["阿里雲"]
+tags: ["阿里雲", "教學30天上手"]
+permalink: /posts/alibaba-cloud-sql/
 ---
 **關聯式資料庫** (Relational
 Database)  

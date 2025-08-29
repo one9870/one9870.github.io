@@ -3,7 +3,7 @@ title: "AWS啟用區域"
 date: 2024-09-21 07:19:00
 categories: ["AWS"]
 tags: ["AWS"]
-permalink: /posts/awsqi-yong-qu-yu/
+permalink: /posts/aws-enable-region/
 ---
 ### 如何啟用AWS區域
 

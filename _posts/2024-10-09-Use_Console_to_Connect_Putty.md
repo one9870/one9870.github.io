@@ -1,9 +1,9 @@
 ---
 title: "如何使用Console連接交換機並使用putty測試"
 date: 2024-10-09 10:15:00
-categories: []
-tags: []
-permalink: /posts/ru-he-shi-yong-consolelian-jie-jiao-huan-ji-bing-shi-yong-puttyce-shi/
+categories: ["IT知識"]
+tags: ["console", "putty", "連接", "交換機"]
+permalink: /posts/use-console-to-connect-putty/
 ---
   
 

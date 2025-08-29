@@ -1,9 +1,9 @@
 ---
 title: "Azure－使用標籤繼承來分組和配置成本"
 date: 2024-09-19 17:37:00
-categories: ["AZURE教學30天上手"]
-tags: ["AZURE教學30天上手"]
-permalink: /posts/azure-shi-yong-biao-qian-ji-cheng-lai-fen-zu-he-pei-zhi-cheng-ben/
+categories: ["AZURE"]
+tags: ["AZURE", "教學30天上手"]
+permalink: /posts/azure-label-cost-control/
 ---
  如何在成本管理中使用標籤繼承設定。 啟用時，標籤繼承會將帳單、資源群組和訂用帳戶標籤套用到子系資源使用量記錄。 您不需要標記每個資源，或依賴發出使用量的資源擁有自己的標籤。
 

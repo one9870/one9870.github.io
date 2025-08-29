@@ -2,12 +2,12 @@
 title: "騰訊雲使用標籤功能控管成本"
 date: 2024-09-16 08:53:00
 categories: ["騰訊雲"]
-tags: ["騰訊雲"]
-permalink: /posts/teng-xun-yun-shi-yong-biao-qian-gong-neng-kong-guan-cheng-ben/
+tags: ["騰訊雲", "標籤", "成本", "控管"]
+permalink: /posts/tencent-cloud-label-cost-control/
 ---
 # 騰訊雲使用標籤功能控管成本
 
-一、登入[标签控制台](https://console.tencentcloud.com/tag)。
+一、登入[標籤控制台](https://console.tencentcloud.com/tag)。
 
 二、建立標籤、綁定資源
 
@@ -48,7 +48,7 @@ permalink: /posts/teng-xun-yun-shi-yong-biao-qian-gong-neng-kong-guan-cheng-ben/
 
 五、標籤展示方式
 
-1.前往[账单概览](https://console.intl.cloud.tencent.com/expense/bill/view?tab=overview)頁面。
+1.前往[帳單概覽](https://console.intl.cloud.tencent.com/expense/bill/view?tab=overview)頁面。
 
 2.在帳單概覽頁面，選擇按標籤總計頁籤，選擇具體的標籤鍵，即可查看根據該標籤鍵匯總的相關資源的長條圖和清單。
 

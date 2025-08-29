@@ -2,7 +2,7 @@
 title: "AWS未使用RDS資源但收到通知的可能原因"
 date: 2025-04-05 23:23:00
 categories: ["AWS"]
-tags: ["AWS"]
+tags: ["AWS", RDS]
 permalink: /posts/without-using-RDS/
 ---
 當管理者收到錯誤通知「RDS Error: Access denied for user 'rdsadmin'@'localhost'」，而其他雲端人員表示未曾使用/開通相關服務時，可依以下列舉原因檢查：

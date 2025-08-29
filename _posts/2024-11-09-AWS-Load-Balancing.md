@@ -3,15 +3,10 @@ title: "AWS 調整負載均衡"
 date: 2024-11-09 12:34:00
 categories: ["AWS"]
 tags: ["AWS"]
-permalink: /posts/aws-diao-zheng-fu-zai-jun-heng/
+permalink: /posts/aws-load-balancing/
 ---
 [![](/assets/images/1234.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFMVMW_buYdWbiRw4kAS1itnbU6-64HDmFIHyA3uwLXc9Ao1bRcd1hZtpXmvD8iTy4huKjzsYpK84i3jvwx2E6c6MH3ZSMiMbBtzn7ayuYL6bPYVlIKbebaGiQqkOL716U370NPLqfhz8fuMxWnH1Vk-I_bBQoOujuN6z72EIX-tc6LR8EUBoI1ATI5YZE/s713/1234.jpg)
 
-  
-  
-  
-  
-  
   
   
 

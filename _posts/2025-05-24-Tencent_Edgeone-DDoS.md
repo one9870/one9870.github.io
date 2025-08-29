@@ -1,9 +1,9 @@
 ---
-title: "如何在騰訊雲查看Edge One高防攻擊日誌與調整DDOS防護等級"
+title: "如何在騰訊雲查看Edge One高防攻擊日誌與調整DDoS防護等級"
 date: 2025-05-24 07:57:00
 categories: ["騰訊雲"]
-tags: ["騰訊雲"]
-permalink: /posts/ru-he-zai-teng-xun-yun-cha-kan-edge-onegao-fang-gong-ji-ri-zhi-yu-diao-zheng-ddosfang-hu-deng-ji/
+tags: ["騰訊雲", "edge one", "ddos"]
+permalink: /posts/edgeone-DDoS/
 ---
 查看Edge One高防攻擊日誌
 
